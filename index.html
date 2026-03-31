@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>【3月最新】固定費 最安ガイド｜電気・ガス・ネット回線</title>
+<title>【最新】固定費 最安ガイド｜電気・ガス・ネット回線</title>
 
 <style>
 :root {
@@ -269,6 +269,25 @@ body {
   0%, 100% { box-shadow: 0 2px 10px rgba(255,78,80,0.25); }
   50% { box-shadow: 0 2px 20px rgba(255,78,80,0.45); }
 }
+/* Urgent deadline box */
+.urgent-box {
+  background: #FFF0F0;
+  border: 2px solid var(--gas);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  animation: urgentPulse 1.5s infinite;
+}
+.urgent-text {
+  font-size: 14px;
+  color: var(--gas-dark);
+  line-height: 1.7;
+}
+@keyframes urgentPulse {
+  0%, 100% { border-color: var(--gas); }
+  50% { border-color: #FF8A80; }
+}
 
 /* Area coverage box */
 .area-box {
@@ -493,17 +512,48 @@ body {
   line-height: 1.7;
 }
 .line-note { font-size: 13px; color: var(--text-light); margin-top: 10px; }
+/* April teaser */
+.april-teaser {
+  background: linear-gradient(135deg, #FFF8E8, #FFF3D6);
+  border: 2px solid rgba(245,166,35,0.3);
+  border-radius: 14px;
+  padding: 18px 16px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.april-title {
+  font-weight: 900;
+  font-size: 15px;
+  color: var(--accent-dark);
+  margin-bottom: 8px;
+}
+.april-text {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.7;
+}
+.april-hint {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.8;
+}
 
 /* ===== Footer ===== */
 .footer { padding: 24px 16px 48px; text-align: center; }
 .footer-text { font-size: 12px; color: #B0AAA4; line-height: 1.9; }
 </style>
 <script type="text/javascript">
+
     (function(c,l,a,r,i,t,y){
+
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+
     })(window, document, "clarity", "script", "w1k43kvlke");
+
 </script></head>
 <body>
 
@@ -630,7 +680,10 @@ body {
       </div>
       <p class="area-note">沖縄・離島を除く<strong>全国の電力エリアに対応</strong><br>引っ越し先でも継続利用できる</p>
     </div>
-    <div class="campaign-badge">🔥 3月限定：最大10万円値引き！</div>
+    <div class="campaign-badge" style="font-size:15px;padding:12px 20px">🚨 3月限定：最大10万円値引き！本日終了</div>
+    <div class="urgent-box">
+      <p class="urgent-text">⚠️ このキャンペーンは<strong>本日23:59まで</strong>です。<br>明日以降は適用されません。</p>
+    </div>
     <div class="service-points">
       <div class="point-item">
         <span class="point-check">✓</span>
@@ -723,7 +776,14 @@ body {
       <p>✅ 一人暮らし・子育て世帯に合ったプランを提案</p>
       <p>✅ 引っ越し前でもOK！事前相談歓迎</p>
     </div>
-    <a href="https://s.lmes.jp/landing-qr/2006563612-4pY8bwOB?uLand=sp0tgU" target="_blank" rel="noopener" class="cta-button cta-line">
+    <div class="april-teaser">
+      <p class="april-title">📢 4月以降の最新キャンペーン情報</p>
+      <p class="april-text">LINEで友だち追加いただいた方に<br><strong>最新のお得情報を個別にご案内中！</strong></p>
+      <p class="april-hint">💡 基本料金<strong>5ヶ月無料</strong>の電力会社</p>
+      <p class="april-hint">💡 最大<strong>15万円還元</strong>の最速ネット回線</p>
+      <p class="april-text" style="margin-top:8px;font-size:13px">…など、ここには載せきれない<br>限定案件をご紹介しています</p>
+    </div>
+    <a href="https://s.lmes.jp/landing-qr/2006563612-4pY8bwOB?uLand=xFH9Vy" target="_blank" rel="noopener" class="cta-button cta-line">
       <span class="cta-text">LINEで無料相談する</span>
       <span class="cta-arrow">→</span>
     </a>
